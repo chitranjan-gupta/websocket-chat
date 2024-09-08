@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="client.css" />
+	<script defer src="encrypt.js"></script>
+    <script src="client.js"></script>
+  </head>
+  <body>
+	<div id="chat-container">
+		<div id="search-container">
+			<input type="text" placeholder="Search"/>
+		</div>
+		<div id="conversation-list">
+			<div class="conversation active">
+				<img src="person-circle.png" alt="Unknown"/>
+				<div class="title-text">
+					Unknown
+				</div>
+				<div class="created-date">
+				
+				</div>
+				<div class="conversation-message">
+					
+				</div>
+			</div>
+		</div>
+		<div id="chat-title">
+			<span id="name">Unknown</span>
+			<br>
+			<span id="info">connecting...</span>
+		</div>
+		<div id="chat-message-list">
+		</div>
+		<div id="chat-form">
+			<img id="attach" src="attach.png" alt="Add Attachment"/>
+			<input type="text" id="input" placeholder="Write a message"/>
+			<span>😄</span>
+			<span>😄</span>
+		</div>
+	</div>
+  </body>
+</html>
